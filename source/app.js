@@ -9,7 +9,7 @@ const logger = createLogger();
 const createStoreWithMiddleware = applyMiddleware(logger)(createStore);
 const store = createStoreWithMiddleware(reducers);
 
-import * as ItemAction from './actions/ItemAction';
+import * as ItemAction from './actions/item-action';
 import reduxMixinsCreator from 'vue-redux';
 const reduxMixins = reduxMixinsCreator(ItemAction);
 

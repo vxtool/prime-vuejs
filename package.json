@@ -1,8 +1,25 @@
 {
   "name": "prime-vuejs",
   "version": "1.0.1",
-  "description": "Prime Vue JS",
+  "description": "Prime VueJS",
   "main": "index.html",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/org-victorinox/prime-vuejs.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "bugs": {
+    "url": "https://github.com/org-victorinox/prime-vuejs/issues"
+  },
+  "homepage": "https://github.com/org-victorinox/prime-vuejs#readme",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "vue": "2.6.10",
@@ -45,21 +62,10 @@
     "webpack-dev-server": "3.8.0",
     "webpack-merge": "4.2.1"
   },
-  "scripts": {
-    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --progress --colors",
-    "build": "node node_modules/webpack/bin/webpack --progress --colors --production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/org-victorinox/prime-vuejs.git"
-  },
-  "keywords": [
-    "vue"
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
   ],
-  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/org-victorinox/prime-vuejs/issues"
-  },
-  "homepage": "https://github.com/org-victorinox/prime-vuejs#readme"
+  "license": "MIT"
 }

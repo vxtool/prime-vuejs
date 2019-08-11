@@ -8,6 +8,22 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/org-victorinox/prime-vuejs.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/org-victorinox/prime-vuejs/total.svg)
 
+## Prerequisites
+
+- [Node = v10.15.x](https://nodejs.org/en/)
+- NPM >= v6.4.x
+- [Yarn >= v1.3.2](https://yarnpkg.com/en/docs/install#linux-tab) or `npm install -g yarn`
+
+## Install
+
+```bash
+yarn
+```
+
+## Commands
+
+- **yarn start:development**: start server in development mode [http://localhost:8000](http://localhost:8000)
+
 ## Contributing
 
 - Fork it!
